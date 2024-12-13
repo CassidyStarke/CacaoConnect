@@ -1,0 +1,196 @@
+/*HEADER*/
+
+header div img {
+    margin-top: 20%;
+    width: 400px;
+    height: 100px;
+}
+
+.dropbtn {
+    background-color: rgb(69, 34, 8);
+    color: white;
+    padding: 30%;
+    font-size: 90%;
+    border: none;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    opacity: 95%;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {
+    background-color: #8e5d41;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(69, 34, 8);
+}
+
+
+/*BODY*/
+
+body{
+    background-image: url(fotos/background/background.png);
+    width: 100%;
+    
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    animation: scaleUp 2s ease-in-out infinite alternate;
+
+}
+
+@keyframes scaleUp {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+main{
+    background-color: rgb(255, 255, 255, 0.7);
+    width: 90%;
+    justify-content: center;
+    padding: 1%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+p{
+    text-align: center;
+}
+
+
+
+
+.home article img {
+    width: 300px;
+    height: 300px;
+}
+
+.nieuws article div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    
+}
+
+.nieuws article div img {
+    width: 200px;
+}
+
+.nieuws h2{
+    font-size:90%;
+    text-align: center;
+}
+
+.nieuws article p{
+    font-size:small;
+}
+
+.overons article div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;  
+}
+
+.overons article div img {
+    margin-top: 20px;
+    width: 150px;
+}
+
+.helponsmee article  {
+   margin-bottom: 30%;
+}
+
+.helponsmee article div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;  
+}
+
+.helponsmee article div img {
+    margin-top: 20px;
+    width: 200px;
+}
+
+.helponsmee article ul li p{
+  text-align: left;
+  font-weight: bold;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*FOOTER*/
+
+
+footer{
+    width: 100%;
+}
+
+footer section {
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: center;
+    display: flex;
+    background-color: #4e2c1e;
+}
+
+h3 {
+    font-size: 1em;
+    margin-right: 20px;
+}
+
+footer img {
+    display: flex;
+    max-width: 40px;
+    max-height: 40px;
+
+}
+
+footer p {
+    text-align: center;
+}
